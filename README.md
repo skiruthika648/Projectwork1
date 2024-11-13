@@ -1,58 +1,51 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## REAL-TIME SCLEROSIS DETECTION IN MRI SCANS: A CNN-BASED DEEP LEARNING MODEL INTEGRATING INTO A DJANGO WEB APPLICATION.
+It presents CNN architectures for detecting sclerosis in MRI scans, focusing on TensorFlow implementation. By incorporating attention mechanisms and leveraging transfer learning, the models enhance accuracy and efficiency. Extensive experiments on benchmark datasets demonstrate the effectiveness of these architectures for automated sclerosis detection in clinical settings.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+It investigates CNN architectures tailored for sclerosis detection in MRI scans, with a focus on efficient implementation in TensorFlow for clinical applicability. By harnessing the spatial richness of MRI data, the proposed architectures use convolutional layers for feature extraction, pooling layers for spatial reduction, and fully connected layers for classification. To improve model performance, attention mechanisms are incorporated, enabling the network to focus on regions most relevant to sclerosis. Additionally, transfer learning from pre-trained models is employed to expedite training and enhance generalization, addressing the challenge of limited labeled medical data.
 
+Extensive experimentation is conducted on benchmark MRI datasets, where the proposed models are evaluated for accuracy, efficiency, and robustness in identifying sclerosis. Results demonstrate that these architectures provide a scalable and effective solution for automated sclerosis detection, with potential for integration into clinical workflows. This work advances the development of AI-driven diagnostic tools, promoting early intervention and better patient outcomes in neurological care.
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
+- Specialized CNN Architectures
+- TensorFlow Implementation
+- Attention Mechanisms
+- Transfer Learning
+- Comprehensive Evaluation
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
+
+* Operating System: Requires a 64-bit OS (Windows 10) for compatibility with deep learning frameworks.
 * Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
+* Deep Learning Frameworks: TensorFlow for model training
+* Tool : Anaconda with jupyter notebook
 * Version Control: Implementation of Git for collaborative development and effective code management.
 * IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![image](https://github.com/user-attachments/assets/0c0d7635-8b7a-488b-9ee9-8716d09e06c1)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Accuracy
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/user-attachments/assets/ceafcd0f-ecb2-41af-a70f-0c4be6584d9e)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+This project integrates a CNN model for real-time sclerosis detection in MRI scans within a Django web application. The application allows clinicians to upload MRI images and receive immediate predictions, complete with visualizations to highlight areas potentially affected by sclerosis. This setup enables faster diagnostic processes, supporting early detection and intervention in clinical settings. The web-based format makes advanced AI accessible and easy to deploy, even in facilities without specialized hardware. By offering instant results and visual decision support, the model enhances clinicians' diagnostic confidence, contributing to improved patient care. Additionally, the Django framework allows for scalable deployment, enabling multiple healthcare centers to benefit from this automated detection tool.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+## Articles published / References:
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. A Shoeibi, M Khodatars, M Jafari, P Moridian, M Rezaei, R Alizadehsani, F Khozeimeh , 2021 - Applications of Deep Learning Techniques for Automated Multiple Sclerosis Detection Using Magnetic Resonance Imaging: A Review 
+2. NM Ali, M Shaheen, MS Mabrouk, MA AboRezka brain, 2020 – Machine Learning In Early Genetic Detection Oh Multiple Sclerosis Disease: A Survey
+3. S Al Jannat, T Hoque, NA Supti,  MA Alam, 2021 - Detection of Multiple Sclerosis  Using Deep Learning
+4. A Shoeibi, M Khodatars, M Jafari, P Moridian, 2021 – Deep Learning For Detection Of Multiple Sclerosis Lesions In Less GD Injection MRI Context 
+5. L Benhiza, S Benbatata,  2021 - Segmentation of Multiple Sclerosis in MR images by Deep Learning
 
 
 
